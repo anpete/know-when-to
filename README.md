@@ -10,7 +10,7 @@ The evaluator is written in C# using .NET Core and uses a Monte Carlo simulation
 
 There is a CLI which will allow you to evaluate hands from the command line. E.g.:
 
-```bash 
+```
 ./eval-hands AcKc QcQh 2h7d JcTd --board AhKd
 
 Simulating ~100,000,000 hands using 10 threads.
