@@ -17,7 +17,8 @@ public static class MonteCarlo
         }
     }
 
-    public static void Simulate(Player[] players,
+    public static void Simulate(
+        Player[] players,
         Card[] board,
         Func<SimulationResult[], bool> progress,
         int progressIterations = ProgressIterations)
